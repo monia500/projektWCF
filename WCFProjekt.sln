@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFBiblioteka", "WCFBiblioteka\WCFBiblioteka.csproj", "{31502B66-02B1-41D8-8F24-EDB33B7EBF27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{5698C57C-0B3B-4EE9-A9F5-AA6E24CACF66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{31502B66-02B1-41D8-8F24-EDB33B7EBF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31502B66-02B1-41D8-8F24-EDB33B7EBF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31502B66-02B1-41D8-8F24-EDB33B7EBF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5698C57C-0B3B-4EE9-A9F5-AA6E24CACF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5698C57C-0B3B-4EE9-A9F5-AA6E24CACF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5698C57C-0B3B-4EE9-A9F5-AA6E24CACF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5698C57C-0B3B-4EE9-A9F5-AA6E24CACF66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
