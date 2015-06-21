@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7658d3b3-48bc-4f8c-a78b-066f28f8b4ac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://192.168.0.11:8000/WCFProjekt/KalkulatorService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="1f4c8e22-cd83-4228-aa11-3c08ae5b2959" SourceId="1" SourceUrl="net.tcp://192.168.0.11:8000/WCFProjekt/KalkulatorService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="0ef7529e-5a93-427e-8347-22310f8c134f" SourceId="1" SourceUrl="net.tcp://192.168.0.11:8000/WCFProjekt/KalkulatorService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d4d8942e-b46f-4fdc-9cb4-1be242fddcb9" SourceId="1" SourceUrl="net.tcp://192.168.0.11:8000/WCFProjekt/KalkulatorService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

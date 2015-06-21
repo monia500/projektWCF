@@ -16,7 +16,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            Uri baseAddress = new Uri("net.tcp://192.168.0.11:8000/WCFProjekt/");
+            Uri baseAddress = new Uri("net.tcp://192.168.0.11:8080/WCFProjekt/");
             ServiceHost selfHost = new ServiceHost(typeof(KalkulatorService), baseAddress);
             NetTcpBinding b = new NetTcpBinding();
             b.Security.Mode = SecurityMode.None;
