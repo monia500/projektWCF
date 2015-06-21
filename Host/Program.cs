@@ -40,7 +40,6 @@ namespace Host
             {
                 Console.WriteLine("Wychwycono blad: {0}", e.Message);
                 selfHost.Abort();
-
             }
         }
     }
